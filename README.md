@@ -1,22 +1,36 @@
-### Hi, I'm Cam Dev 👋
+# Portafolio de Camilo — 2026
 
-I build CLI tools, MCP servers, and infrastructure applications.  
-Most of my work is in **Go**, **Rust**, and **Python**.
+Web estática bilingüe (ES/EN) y responsive. Funciona sin backend ni compilación.
 
----
+## Ver localmente
 
-### Projects
+```bash
+python -m http.server 8000
+```
 
-- [**cine-cli**](https://github.com/camilin7483/cine-cli) — Terminal media streaming with TUI, multi-provider, fuzzy search, and i18n. Go + Bubble Tea.
-- [**mcp-onlyoffice**](https://github.com/camilin7483/mcp-onlyoffice) — MCP server for AI-driven document creation (DOCX, XLSX, PPTX, PDF) via ONLYOFFICE.
-- [**spotify-to-yt**](https://github.com/camilin7483/spotify-to-yt) — Spotify playlist analyzer & YouTube music downloader with metadata embedding.
-- [**server-manager**](https://github.com/camilin7483/server-manager) — Infrastructure platform: SSH, Docker, Minecraft, monitoring. Rust + egui.
-- [**blender-mcp**](https://github.com/camilin7483/blender-mcp) — Blender add-on for MCP protocol — control 3D workflows from AI assistants.
+Abre `http://localhost:8000/`.
 
-### Tech
+## Proyectos seleccionados (auditoría de 16-11-2026)
 
-Go · Rust · Python · Bubble Tea · MCP · Docker · SQLite · Linux
+- **Kastral** (`camilin7483/kastral`): CI pública exitosa en el commit actual `5e72492`; stack Next.js, TypeScript, Rust/Tauri.
+- **kdenlive-mcp** (`camilin7483/kdenlive-mcp`): servidor MCP con código público; informe local reportó 91 tests y render verificado. GitHub aún muestra una versión anterior; quedan verificaciones de GUI.
+- **cine-cli** (`camilin7483/cine-cli`): CI pública exitosa en el commit actual `f77f48f`; CLI/TUI en Go.
 
----
+**Retirados de la selección (no borrados de GitHub):** `mcp-onlyoffice` y `DevOS`. Hay código, documentación y capturas, pero no se verificó su ejecución o una CI reciente durante esta revisión. No implica que estén rotos. Otros repos sin evidencia comparable no se incorporaron.
 
-*Colombia* · [github.com/camilin7483](https://github.com/camilin7483)
+## Contacto
+
+`cuentacamilo48@gmail.com` (enlace `mailto:`). Esta dirección queda pública al publicar el sitio, por petición expresa del propietario.
+
+## Publicar en GitHub Pages
+
+La carpeta es apta para servir desde la raíz de una rama `gh-pages` (incluye `.nojekyll`). Si se publica en `camilin7483/camilin7483`, en Settings → Pages se debe seleccionar **Deploy from a branch** → `gh-pages` → `/(root)` y guardar. El enlace normalmente sería `https://camilin7483.github.io/camilin7483/` una vez activado y completado el despliegue; confirmar la URL en **Visit site**.
+
+GitHub Pages no se activa automáticamente por crear una rama. Comprueba el estado de publicación antes de compartir el enlace.
+
+## Notas
+
+- `index.html` y `portfolio.html` son idénticos.
+- CSS y JS en `assets/`; imágenes SVG propias del diseño y una captura enlazada desde GitHub para cine-cli.
+- No se incluyen tokens ni servicios de seguimiento.
+- Los enlaces a repositorios son públicos; la presencia de código no certifica todas sus capacidades.
